@@ -9,6 +9,19 @@ fn half_of_a_square() {
     }
 }
 
+/*
+Note: it's interesting how the Math formulas came up with the model for:
+1. how many spaces are in each row
+2. how many hashes
+The resulting model then looks like this:
+1
+2
+3
+4
+3
+2
+1
+ */
 fn sideways_triangle() {
     println!("Sideways triangle:");
 
